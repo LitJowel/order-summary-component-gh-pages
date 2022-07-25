@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/resources/images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body>
+    <main>
+      <picture class="pattern">
+        <source
+          media="(max-width:375px)"
+          srcset="images/pattern-background-mobile.svg"
+        />
+        <img src="images/pattern-background-desktop.svg" alt="svg background" />
+      </picture>
+      <article class="card">
+        <section class="card__cover">
+          <img src="images/illustration-hero.svg" alt="hero image" />
+        </section>
+        <section class="card__main">
+          <h1 class="card__title">Order Summary</h1>
+          <p class="card__text">
+            You can now listen to millions of <br />
+            songs, audiobooks, and podcasts on <br />
+            any device anywhere you like!
+          </p>
+          <div class="card__advert advert">
+            <section class="card__icon-music">
+              <img src="images/icon-music.svg" alt="icon music" />
+            </section>
+            <p>
+              <span class="card__term">Annual Plan</span>
+              <span class="card__price">$59.99/year</span>
+            </p>
+            <a href="#" class="card__change">Change</a>
+          </div>
+          <a href="#" class="card__button">Proceed to Payment</a>
+          <a href="#" class="card__button card__button--ghost">Cancel Order</a>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
